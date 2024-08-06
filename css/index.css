@@ -1,7 +1,10 @@
 .bg-blue {
-    background-color: #18428a;
+  background-color: #18428a;
 }
 
 .text-blue {
-    color: #18428a;
+  color: #18428a;
+}
+html {
+  font-family: "Roboto", sans-serif !important;
 }
