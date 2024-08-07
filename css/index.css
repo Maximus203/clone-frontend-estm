@@ -5,6 +5,29 @@
 .text-blue {
   color: #18428a;
 }
+.border-blue {
+  color: #18428a;
+  border-color: #18428a !important;
+}
 html {
   font-family: "Roboto", sans-serif !important;
+}
+nav {
+  font-weight: 300 bold !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.nav-link {
+  font-size: small !important;
+  /* font-weight: 300 bold; */
+}
+.nav-link:hover {
+  color: #c7ccd5 !important;
+}
+.dropdown-item:hover {
+  color: #e0e0e0;
+  background-color: #1f58bc;
+}
+.dropdown-item {
+  font-size: small !important;
 }
