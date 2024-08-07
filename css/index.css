@@ -7,15 +7,15 @@
  */
 
 .bg-blue {
-    background-color: #18428a;
+    background-color: #18428a !important;
 }
 
 .text-blue {
-    color: #18428a;
+    color: #18428a !important;
 }
 
 .border-blue {
-    color: #18428a;
+    color: #18428a !important;
     border-color: #18428a !important;
 }
 
@@ -38,8 +38,8 @@ nav {
 }
 
 .dropdown-item:hover {
-    color: #e0e0e0;
-    background-color: #1f58bc;
+    color: #e0e0e0 !important;
+    background-color: #1f58bc !important;
 }
 
 .dropdown-item {
