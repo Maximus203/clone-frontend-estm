@@ -14,6 +14,10 @@
         .titre {
             text-align: center;
         }
+
+        .aware {
+            color: #ff9800;
+        }
     </style>
 </head>
 
@@ -118,17 +122,7 @@
         </div>
     </header>
 
-    <div class="jumbotron text-center mt-2 p-3 shadow mb-5 bg-body-tertiary rounded">
-        <div class="container">
-            <h5>
-                <a href="" style="color:black; text-decoration-line: none;">Accueil</a>
-                <span>/</span>
-                <a href="" style="color:black; text-decoration-line: none;">Nos formations</a>
-                <span>/</span>
-                <span style="color:#18428a">Formation initiale</span>
-            </h5>
-        </div>
-    </div>
+
 
     <div class="titre">
         <h3><strong></strong>Formation continue</strong></h3>
@@ -139,41 +133,55 @@
     <section>
         <div>
 
-            <div class="row">
+            <div class="row" style="margin: 0 15rem 0 15rem;">
                 <div class="col ">
-                    <div class="card border-0" style="width: 18rem;">
-                        <img src="./pmp.png" class="card-img-top shadow" alt="...">
+                    <div class="card  border-0" style="width: 18rem;">
+                        <img src="/images/pmp.png" class="card-img-top shadow align-center" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CERTIFICATION PMP</h5>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-award text-blue aware" viewBox="0 0 16 16 ">
+                                <path
+                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                            </svg> <span class="aware"> Gestion de projets</span> <br> <br>
+
                             <p class="card-text">Nombre de places: 25
                                 Formation en <br>ligne
                                 Session en : à venir
                                 Examen au <br>PMI inclus
-                                C’est la 1ére certification <br> mondiale en pilotage de projet. Elle <br> est reconnue
+                                C’est la 1ére certification <br> mondiale en pilotage de projet.
                                 à
                                 l’international
-                                et <br>
-                                permet de décrocher
-                                un job comme <br>Chef de projet dans n’importe quel <br>pays.
-                                Les formateurs Ousmane FAYE <br>et Dirk DOPPELFELD sont des <br>experts émérites et sont
-                                reconnus <br>au
-                                sein du
-                                Project Management <br>
-                                Institute pour leur expertise et leurs <br> contributions au développement de <br>la
-                                communauté
-                                des Chefs <br>
-                                de
-                                projet..</p>
-                            <a href="#" class="btn btn-primary">Préinscription</a>
+                                et <br> <br> <br>
+
+                                <button type="button" class="btn btn-secondary" data-bs-toggle="popover"
+                                    data-bs-placement="right" data-bs-custom-class="custom-popover"
+                                    data-bs-title="Custom popover"
+                                    data-bs-content="This popover is themed via CSS variables.">
+                                    Click to toggle
+
+                                </button> <br><br>
+                                <a href="#" class="btn btn-primary">Préinscription</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
                     <div class="card border-0" style="width: 18rem;">
-                        <img src="./capm.jpeg" class="card-img-top shadow" alt="...">
+                        <img src="/images/capm.jpeg" class="card-img-top shadow" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cisco CCNA, (avec CCNA 200-301)</h5>
+                            <h5 class="card-title">Cisco CCNA, (avec CCNA 200-301)</h5><br>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-award text-blue aware" viewBox="0 0 16 16 ">
+                                <path
+                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                            </svg> <span class="aware"> Gestion de projets</span> <br> <br>
+
+
                             <p class="card-text">Nombre de places: 15 <br>
                                 Formation: en ligne ou en présentiel<br>
                                 Session en : à venir<br>
@@ -194,11 +202,19 @@
                 </div>
 
                 <div class="col ">
-                    <div class="card border-0" style="width: 18rem;">
-                        <img src="./ccna.png" class="card-img-top shadow" alt="...">
+                    <div class="card  border-0" style="width: 18rem;">
+                        <img src="/images/ccna.png" class="card-img-top shadow" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Cisco CCNA, (avec CCNA 200-301)</h5>
-                            <p class="card-text">Nombre de places: 15
+                            <h5 class="card-title">Cisco CCNA, (avec CCNA 200-301)</h5><br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-award text-blue aware" viewBox="0 0 16 16 ">
+                                <path
+                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                            </svg> <span class="aware"> Gestion de projets</span> <br> <br>
+
+
+                            <p class="card-text">Nombre de places
                                 Formation: en ligne ou en présentiel
                                 Session en : à venir
                                 Examen: inclus
@@ -225,29 +241,39 @@
 
     <section>
         <div>
-            <div class="row">
+            <div class="row style=" style="margin: 0 20rem 0 20rem;">
                 <div class="col">
                     <div class="card border-0" style="width: 18rem;">
-                        <img src="./csm.png" class="card-img-top shadow" alt="...">
+                        <img src="/images/csm.png" class="card-img-top shadow" alt="...">
                         <div class="card-body">
-                            <h5 class="Certified Professionnal Scrum Master"></h5>
+                            <h5 class="Certified Professionnal Scrum Master"></h5> <br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-award text-blue aware" viewBox="0 0 16 16 ">
+                                <path
+                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                            </svg> <span class="aware"> Gestion de projets</span> <br> <br>
+
                             <p class="card-text">
-                                Nombre de places: 20
-                                Formation: en ligne
-                                Session en : à venir
-                                Examen: inclus
-                                Coût: formation + certification  : 800 000 F CFA
-                                Durée: 2 jours
-                                Cette formation prépare tous les membres d’une équipe Scrum à travailler dans un
+                                Nombre de places: 20 <br>
+                                Formation: en ligne <br>
+                                Session en : à venir <br>
+                                Examen: inclus <br>
+                                Coût: formation + certification  : 800 000 F CFA <br>
+                                Durée: 2 jours <br>
+                                Cette formation prépare tous les membres <br> d’une équipe Scrum à travailler dans un
+                                <br>
                                 environnement
-                                de développement logiciel
-                                efficace et fortement collaboratif. Elle procure une forte compréhension du processus
-                                Scrum et
+                                de développement logiciel <br>
+                                efficace et fortement collaboratif. Elle procure <br>une forte compréhension du
+                                processus
+                                Scrum <br>et
                                 aide les participants à
-                                commencer à mettre en œuvre les outils et les compétences exigées pour appliquer Scrum
+                                commencer à mettre <br> en œuvre les outils et les compétences <br>exigées pour
+                                appliquer Scrum
                                 sur leurs
-                                projets et dans leurs
-                                organisations. Le Certified Professionnal Scrum Master permet de préparer
+                                projets <br>et dans leurs
+                                organisations. Le Certified <br>Professionnal Scrum Master permet de <br> préparer
                                 la certification CCNA
                                 200-301.
                             </p>
@@ -258,9 +284,18 @@
 
                 <div class="col">
                     <div class="card border-0 " style="width: 18rem;">
-                        <img src="./pecb.png" class="card-img-top shadow" alt="...">
+                        <img src="/images/pecb.png" class="card-img-top shadow" alt="...">
                         <div class="card-body">
                             <h5 class="Lead Cybersecurity Manager"></h5>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-award text-blue aware" viewBox="0 0 16 16 ">
+                                <path
+                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                            </svg> <span class="aware"> Gestion de projets</span> <br> <br>
+
+
                             <p class="card-text">
                                 Nombre de places: 20
                                 Formation: en ligne où présentiel
