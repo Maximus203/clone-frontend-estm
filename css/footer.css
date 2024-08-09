@@ -7,10 +7,18 @@
 
 } */
 
-a {
+/* a {
   text-decoration: none;
   color: white;
 }
 footer {
   font-size: medium !important;
+} */
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  font-size: 14px;
 }

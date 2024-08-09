@@ -14,6 +14,8 @@
 </head>
 
 <body>
+
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-blue fs-6">
             <div class="container-fluid">
@@ -49,11 +51,14 @@
                             </a>
                             <ul class="dropdown-menu bg-blue">
                                 <li><a class="dropdown-item text-white"
-                                        href="./formation/formation-initial.html">FORMATION INITIALE</a></li>
+                                        href="./formation/formation-initial.html">FORMATION
+                                        INITIALE</a></li>
                                 <li><a class="dropdown-item text-white"
-                                        href="./formation/formation-continue.html">FORMATION CONTINUE</a></li>
+                                        href="./formation/formation-continue.html">FORMATION
+                                        CONTINUE</a></li>
                                 <li><a class="dropdown-item text-white"
-                                        href="./formation/formation-a-distance.html">FORMATION À DISTANCE</a></li>
+                                        href="./formation/formation-a-distance.html">FORMATION À
+                                        DISTANCE</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -78,7 +83,7 @@
                                         href="./internationale/ecoles-et-universites-partenaires.html">ÉCOLE ET
                                         UNIVERSITÉS PARTENAIRES</a></li>
                                 <li><a class="dropdown-item text-white"
-                                        href="./internationale/programmes-dechanges-a-letranger.html">PROGRAMMES
+                                        href="/internationale/programmes-dechanges-a-letranger.html">PROGRAMMES
                                         D'ÉCHANGES À L'ÉTRANGER</a></li>
                                 <li><a class="dropdown-item text-white"
                                         href="./internationale/temoignages-detudiants-etrangers.html">TÉMOIGNAGES
@@ -88,11 +93,132 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <button class="btn btn-outline-light m-1 rounded-0" type="submit">PRÉINSCRIPTION</button>
-                        <button class="btn btn-outline-light m-1 rounded-0" type="submit">BROCHURE</button>
+                        <button class="btn btn-outline-light m-1 rounded-0" type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@mdo">BROCHURE</button>
                     </form>
                 </div>
             </div>
         </nav>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center text-white bg-blue">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Formulaire de téléchargement de brochure
+                        </h1>
+                        <button type="button" class="btn-close text-white bg-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="" id="" name="" class="">
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label class="form-label text-muted" for="name">Prénom et Nom</label>
+                                    <input type="text" class="form-control" name="name" id="name"
+                                        placeholder="Entrez votre nom" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label class="form-label text-muted" for="email">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Entrez votre adresse Email">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label class="form-label text-muted" for="tel">Téléphone</label>
+                                    <input type="tel" class="form-control" name="tel" id="tel" placeholder="Téléphone">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label class="form-label text-muted">Comment avez-vous connu l'ESTM</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Sur les réseaux sociaux
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            Par la télévision
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault3">
+                                        <label class="form-check-label" for="flexRadioDefault3">
+                                            Par la radio
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault4">
+                                        <label class="form-check-label" for="flexRadioDefault4">
+                                            Par mon entourage ou amis
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault5">
+                                        <label class="form-check-label" for="flexRadioDefault5">
+                                            Autres
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label class="form-label text-muted" for="departements">Département</label>
+                                    <select class="form-select" id="departements" name="departement" required>
+                                        <option value="" selected>Veuillez choisir le Département</option>
+                                        <option value="SCIENCES - TECHNOLOGIES">SCIENCES - TECHNOLOGIES</option>
+                                        <option value="MANAGEMENT - COMMUNICATION">MANAGEMENT - COMMUNICATION</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label class="form-label text-muted" for="filieres">Filière</label>
+                                    <select class="form-select" id="filieres" name="filiere" required>
+                                        <option value="" selected>Veuillez choisir la filière</option>
+                                        <option value="Télécommunication - Réseaux">Télécommunication - Réseaux</option>
+                                        <option value="Génie logiciel et Réseaux">Génie logiciel et Réseaux</option>
+                                        <option value="Sécurité des Systèmes d'Information">Sécurité des Systèmes
+                                            d'Information</option>
+                                        <option value="Monétique et Transactions Sécurisées">Monétique et Transactions
+                                            Sécurisées</option>
+                                        <option value="Informatique et Multimédia">Informatique et Multimédia</option>
+                                        <option value="Génie électrique et Energies renouvelables">Génie électrique et
+                                            Energies renouvelables</option>
+                                        <option value="Sciences de gestion (avec 6 spécialisations)">Sciences de gestion
+                                            (avec 6 spécialisations)</option>
+                                        <option value="Finance-Comptabilité">Finance-Comptabilité</option>
+                                        <option value="Ingénierie des Ressources Humaines">Ingénierie des Ressources
+                                            Humaines</option>
+                                        <option value="Management de projets et Innovation">Management de projets et
+                                            Innovation</option>
+                                        <option value="Marketing-Communication">Marketing-Communication</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn bg-blue text-white rounded-0 px-4"
+                            data-bs-dismiss="modal">Télécharger<i class="bi bi-download ml-2"></i></button>
+                        <button type="button" class="btn bg-white text-blue border-blue" data-bs-dismiss="modal"> <i
+                                class="bi bi-close"></i>Annuler</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="text-center mt-2 p-3 shadow mb-5 bg-body-tertiary rounded">
             <div class="container">
@@ -105,8 +231,9 @@
                 </h6>
             </div>
         </div>
-
     </header>
+
+
 
     <main>
         <div class="container w-75 mt-5 shadow bg-body-tertiary rounded">
