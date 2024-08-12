@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+.container {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+}
+.images {
+    width: 350px;
+    height: 450px;
+    margin-bottom: 2rem;
+}
