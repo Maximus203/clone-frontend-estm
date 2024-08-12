@@ -6,6 +6,33 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+nav {
+  font-family: roboto, sans-serif !important;
+}
+
+.bg-gray {
+  background-color: #eeeeee;
+}
+
+.bg-rounded-100 {
+  background-color: #eeeeee;
+  height: fit-content;
+  padding: 2rem;
+  border-radius: 100%;
+}
+
+.job {
+  padding: 0;
+}
+
+.job:hover {
+  box-shadow: rgb(190, 190, 190) 3px 5px 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-rounded-5 {
+}
+
 .bg-blue {
   background-color: #18428a !important;
 }
